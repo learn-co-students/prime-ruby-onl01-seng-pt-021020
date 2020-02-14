@@ -1,5 +1,9 @@
 def prime?(num)
-  limit = (num / 2.0).ceil - 1
+  if num < 2
+    return false
+  end
+  
+  limit = (num / 2.0).ceil
   checked = []
   
   (2..limit).each do |check_num|
