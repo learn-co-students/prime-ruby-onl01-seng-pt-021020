@@ -1,3 +1,3 @@
 Prime.each(100) do |prime|
-  p 
+  p prime
 end
