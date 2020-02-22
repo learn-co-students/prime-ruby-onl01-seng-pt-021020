@@ -1,1 +1,2 @@
-
+def prime?(arr)
+  arr
